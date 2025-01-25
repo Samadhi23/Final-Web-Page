@@ -1,0 +1,185 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    background: #F6E9D6;
+    }
+    
+    .logo{
+        font-size: 28px;
+        font-weight: bold;
+        color: #2B2B2B;
+        margin-right: 40px;
+    }
+.nav-bar ul{
+    display: flex;
+    list-style: none;
+}
+.nav-bar ul li a{
+    display: block;
+    color: #2B2B2B;
+    font-size: 20px;
+    padding: 8px 25px;
+    transition: .2s;
+    margin: 0 5px;
+    text-decoration: none;
+}
+.nav-bar ul li:hover a{
+    background-color:  rgb(146, 5, 5);
+    color: #ece6e5;
+    cursor: pointer;
+}
+.nav-buttons .sign-in,
+.nav-buttons .sign-up {
+    padding: 8px 15px;
+    border: none;
+    background-color: #b74c2c;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.nav-buttons .sign-in a{
+  text-decoration: none;
+  color: white ;
+}
+.nav-buttons .sign-up a{
+  text-decoration: none;
+  color: white ;
+}
+
+.nav-buttons .sign-in {
+    background-color: #b74c2c;
+}
+
+.nav-buttons button:hover {
+    background-color: #8a1111;
+}
+main {
+    padding: 20px 50px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+.favorites{
+    text-align: center;
+    margin: 30px 0;
+}
+.favorites h2{
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+.favorites-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.favorite-item{
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: tranform 0.3s;
+}
+.favorite-item img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.favorite-item h3{
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+}
+.favorite-item:hover{
+    transform: scale(1.05s);
+}
+.favorite-item button{
+    background-color: #e07676;
+    color: #111010;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: background-color 0.3s;
+}
+.favorite-item button:hover{
+    background-color: #8a1111;
+    color: #ddd;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 1px solid #ddd;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin: 15px 0;
+    color: #333;
+}
+
+.card button {
+    background-color: #e07676;
+    color: #111010;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    transition: background-color 0.3s;
+}
+
+.card button:hover {
+   
+        background-color: #8a1111;
+        color: #ddd;
+    
+}
+.recipe-details ul li{
+    text
+}
